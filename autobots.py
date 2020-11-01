@@ -21,6 +21,7 @@ def get_num_jobs(state, job_type):
     sleep(randint(10, 25))
     return num_jobs
 
+"""Special shout out to Du'An Lightfoot and Kevin Diaz for the help"""
 
 def main():
     """This is your main function"""

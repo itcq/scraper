@@ -17,7 +17,10 @@ def get_num_jobs(state, job_type):
     url = f"https://www.indeed.com/jobs?q={job_type}&l=${state}"
     soup = BeautifulSoup(requests.get(url).content, 'html.parser')  # This is an API CALL
     raw_num_jobs = soup.find('div', attrs={'id': 'searchCountPages'})
-    num_jobs = raw_num_jobs.contents[0].split()[3]
+    try:
+        num_jobs = raw_num_jobs.contents[0].split()[3]
+    except AttributeError:
+        num_jobs = 0
     sleep(randint(10, 25))
     return num_jobs
 
@@ -33,7 +36,8 @@ def main():
               'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota',
               'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin',
               'Wyoming']
-    job_type = ['network engineer', 'cybersecurity', 'help+desk', 'ccna', 'comptia', 'azure', 'aws', 'ethical+hacker']
+    job_type = ['network engineer', 'cybersecurity', 'help+desk', 'ccna', 'comptia',
+                'azure', 'aws', 'ethical+hacker', 'oscp']
     random.shuffle(states)
     with open(filename, 'w+', newline='') as csvfile:
         for job in job_type:

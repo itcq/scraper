@@ -36,8 +36,9 @@ def main():
               'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota',
               'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin',
               'Wyoming']
-    job_type = ['network engineer', 'cybersecurity', 'help+desk', 'ccna', 'comptia',
-                'azure', 'aws', 'ethical+hacker', 'oscp']
+    job_type = ['network engineer', 'help+desk', 'ccna', 'comptia',
+                'azure', 'aws', 'ethical+hacker', 'oscp', 'CEH', 'ccie', 'ccnp', 'cloud engineer', 'security analyst',
+                'network technician', 'network administrator', 'data scientist']
     random.shuffle(states)
     with open(filename, 'w+', newline='') as csvfile:
         for job in job_type:

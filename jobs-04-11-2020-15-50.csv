@@ -1,0 +1,351 @@
+network engineer: ,Pennsylvania:,501
+network engineer: ,Delaware:,57
+network engineer: ,Maryland:,"2,026"
+network engineer: ,Texas:,"1,444"
+network engineer: ,Mississippi:,53
+network engineer: ,North Carolina:,502
+network engineer: ,North Dakota:,22
+network engineer: ,Michigan:,275
+network engineer: ,Missouri:,277
+network engineer: ,Georgia:,578
+network engineer: ,Ohio:,495
+network engineer: ,Iowa:,102
+network engineer: ,Tennessee:,170
+network engineer: ,Indiana:,158
+network engineer: ,Alaska:,93
+network engineer: ,Oregon:,181
+network engineer: ,Rhode Island:,50
+network engineer: ,California:,"2,345"
+network engineer: ,Nevada:,89
+network engineer: ,Kentucky:,96
+network engineer: ,Montana:,40
+network engineer: ,Wisconsin:,205
+network engineer: ,Connecticut:,137
+network engineer: ,Minnesota:,220
+network engineer: ,Utah:,232
+network engineer: ,Louisiana:,124
+network engineer: ,Vermont:,41
+network engineer: ,New Jersey:,393
+network engineer: ,New Hampshire:,49
+network engineer: ,Hawaii:,143
+network engineer: ,Oklahoma:,102
+network engineer: ,Alabama:,276
+network engineer: ,New Mexico:,108
+network engineer: ,New York:,725
+network engineer: ,West Virginia:,103
+network engineer: ,Wyoming:,65
+network engineer: ,Arkansas:,52
+network engineer: ,Nebraska:,720
+network engineer: ,Florida:,798
+network engineer: ,Virginia:,"3,274"
+network engineer: ,Washington:,561
+network engineer: ,Kansas:,124
+network engineer: ,Idaho:,51
+network engineer: ,Colorado:,"1,351"
+network engineer: ,Arizona:,421
+network engineer: ,Illinois:,616
+network engineer: ,South Carolina:,229
+network engineer: ,Massachusetts:,549
+network engineer: ,South Dakota:,33
+network engineer: ,Maine:,46
+cybersecurity: ,Pennsylvania:,474
+cybersecurity: ,Delaware:,72
+cybersecurity: ,Maryland:,"1,614"
+cybersecurity: ,Texas:,"1,447"
+cybersecurity: ,Mississippi:,49
+cybersecurity: ,North Carolina:,482
+cybersecurity: ,North Dakota:,22
+cybersecurity: ,Michigan:,250
+cybersecurity: ,Missouri:,260
+cybersecurity: ,Georgia:,596
+cybersecurity: ,Ohio:,505
+cybersecurity: ,Iowa:,93
+cybersecurity: ,Tennessee:,144
+cybersecurity: ,Indiana:,119
+cybersecurity: ,Alaska:,27
+cybersecurity: ,Oregon:,149
+cybersecurity: ,Rhode Island:,52
+cybersecurity: ,California:,"2,194"
+cybersecurity: ,Nevada:,74
+cybersecurity: ,Kentucky:,72
+cybersecurity: ,Montana:,21
+cybersecurity: ,Wisconsin:,145
+cybersecurity: ,Connecticut:,144
+cybersecurity: ,Minnesota:,203
+cybersecurity: ,Utah:,202
+cybersecurity: ,Louisiana:,106
+cybersecurity: ,Vermont:,17
+cybersecurity: ,New Jersey:,405
+cybersecurity: ,New Hampshire:,42
+cybersecurity: ,Hawaii:,92
+cybersecurity: ,Oklahoma:,89
+cybersecurity: ,Alabama:,253
+cybersecurity: ,New Mexico:,95
+cybersecurity: ,New York:,790
+cybersecurity: ,West Virginia:,53
+cybersecurity: ,Wyoming:,62
+cybersecurity: ,Arkansas:,52
+cybersecurity: ,Nebraska:,679
+cybersecurity: ,Florida:,755
+cybersecurity: ,Virginia:,"3,061"
+cybersecurity: ,Washington:,554
+cybersecurity: ,Kansas:,62
+cybersecurity: ,Idaho:,42
+cybersecurity: ,Colorado:,"1,308"
+cybersecurity: ,Arizona:,389
+cybersecurity: ,Illinois:,631
+cybersecurity: ,South Carolina:,216
+cybersecurity: ,Massachusetts:,602
+cybersecurity: ,South Dakota:,32
+cybersecurity: ,Maine:,31
+help+desk: ,Pennsylvania:,"1,862"
+help+desk: ,Delaware:,147
+help+desk: ,Maryland:,"1,515"
+help+desk: ,Texas:,"4,336"
+help+desk: ,Mississippi:,237
+help+desk: ,North Carolina:,"1,667"
+help+desk: ,North Dakota:,103
+help+desk: ,Michigan:,"1,455"
+help+desk: ,Missouri:,834
+help+desk: ,Georgia:,"1,424"
+help+desk: ,Ohio:,"1,760"
+help+desk: ,Iowa:,352
+help+desk: ,Tennessee:,"1,009"
+help+desk: ,Indiana:,866
+help+desk: ,Alaska:,154
+help+desk: ,Oregon:,707
+help+desk: ,Rhode Island:,134
+help+desk: ,California:,"5,143"
+help+desk: ,Nevada:,388
+help+desk: ,Kentucky:,517
+help+desk: ,Montana:,123
+help+desk: ,Wisconsin:,680
+help+desk: ,Connecticut:,506
+help+desk: ,Minnesota:,818
+help+desk: ,Utah:,553
+help+desk: ,Louisiana:,461
+help+desk: ,Vermont:,118
+help+desk: ,New Jersey:,"1,315"
+help+desk: ,New Hampshire:,190
+help+desk: ,Hawaii:,188
+help+desk: ,Oklahoma:,396
+help+desk: ,Alabama:,651
+help+desk: ,New Mexico:,195
+help+desk: ,New York:,"2,583"
+help+desk: ,West Virginia:,164
+help+desk: ,Wyoming:,53
+help+desk: ,Arkansas:,224
+help+desk: ,Nebraska:,217
+help+desk: ,Florida:,"3,483"
+help+desk: ,Virginia:,"2,103"
+help+desk: ,Washington:,"1,050"
+help+desk: ,Kansas:,375
+help+desk: ,Idaho:,270
+help+desk: ,Colorado:,"1,254"
+help+desk: ,Arizona:,"1,231"
+help+desk: ,Illinois:,"1,780"
+help+desk: ,South Carolina:,755
+help+desk: ,Massachusetts:,"1,341"
+help+desk: ,South Dakota:,83
+help+desk: ,Maine:,177
+ccna: ,Pennsylvania:,195
+ccna: ,Delaware:,29
+ccna: ,Maryland:,867
+ccna: ,Texas:,586
+ccna: ,Mississippi:,35
+ccna: ,North Carolina:,210
+ccna: ,North Dakota:,10
+ccna: ,Michigan:,126
+ccna: ,Missouri:,89
+ccna: ,Georgia:,262
+ccna: ,Ohio:,217
+ccna: ,Iowa:,56
+ccna: ,Tennessee:,78
+ccna: ,Indiana:,77
+ccna: ,Alaska:,59
+ccna: ,Oregon:,64
+ccna: ,Rhode Island:,15
+ccna: ,California:,844
+ccna: ,Nevada:,61
+ccna: ,Kentucky:,64
+ccna: ,Montana:,15
+ccna: ,Wisconsin:,83
+ccna: ,Connecticut:,49
+ccna: ,Minnesota:,70
+ccna: ,Utah:,100
+ccna: ,Louisiana:,89
+ccna: ,Vermont:,24
+ccna: ,New Jersey:,133
+ccna: ,New Hampshire:,18
+ccna: ,Hawaii:,94
+ccna: ,Oklahoma:,52
+ccna: ,Alabama:,148
+ccna: ,New Mexico:,62
+ccna: ,New York:,240
+ccna: ,West Virginia:,44
+ccna: ,Wyoming:,5
+ccna: ,Arkansas:,36
+ccna: ,Nebraska:,49
+ccna: ,Florida:,398
+ccna: ,Virginia:,"1,264"
+ccna: ,Washington:,127
+ccna: ,Kansas:,65
+ccna: ,Idaho:,13
+ccna: ,Colorado:,302
+ccna: ,Arizona:,184
+ccna: ,Illinois:,296
+ccna: ,South Carolina:,127
+ccna: ,Massachusetts:,179
+ccna: ,South Dakota:,12
+ccna: ,Maine:,14
+comptia: ,Pennsylvania:,119
+comptia: ,Delaware:,39
+comptia: ,Maryland:,547
+comptia: ,Texas:,379
+comptia: ,Mississippi:,18
+comptia: ,North Carolina:,194
+comptia: ,North Dakota:,5
+comptia: ,Michigan:,88
+comptia: ,Missouri:,93
+comptia: ,Georgia:,210
+comptia: ,Ohio:,196
+comptia: ,Iowa:,30
+comptia: ,Tennessee:,67
+comptia: ,Indiana:,50
+comptia: ,Alaska:,48
+comptia: ,Oregon:,35
+comptia: ,Rhode Island:,9
+comptia: ,California:,561
+comptia: ,Nevada:,33
+comptia: ,Kentucky:,61
+comptia: ,Montana:,6
+comptia: ,Wisconsin:,45
+comptia: ,Connecticut:,42
+comptia: ,Minnesota:,52
+comptia: ,Utah:,59
+comptia: ,Louisiana:,93
+comptia: ,Vermont:,7
+comptia: ,New Jersey:,94
+comptia: ,New Hampshire:,15
+comptia: ,Hawaii:,73
+comptia: ,Oklahoma:,58
+comptia: ,Alabama:,172
+comptia: ,New Mexico:,54
+comptia: ,New York:,152
+comptia: ,West Virginia:,30
+comptia: ,Wyoming:,3
+comptia: ,Arkansas:,17
+comptia: ,Nebraska:,32
+comptia: ,Florida:,289
+comptia: ,Virginia:,"1,027"
+comptia: ,Washington:,117
+comptia: ,Kansas:,44
+comptia: ,Idaho:,5
+comptia: ,Colorado:,155
+comptia: ,Arizona:,139
+comptia: ,Illinois:,157
+comptia: ,South Carolina:,78
+comptia: ,Massachusetts:,99
+comptia: ,South Dakota:,3
+comptia: ,Maine:,11
+azure: ,Pennsylvania:,825
+azure: ,Delaware:,50
+azure: ,Maryland:,923
+azure: ,Texas:,"2,416"
+azure: ,Mississippi:,34
+azure: ,North Carolina:,949
+azure: ,North Dakota:,24
+azure: ,Michigan:,434
+azure: ,Missouri:,371
+azure: ,Georgia:,"1,014"
+azure: ,Ohio:,653
+azure: ,Iowa:,129
+azure: ,Tennessee:,274
+azure: ,Indiana:,255
+azure: ,Alaska:,9
+azure: ,Oregon:,336
+azure: ,Rhode Island:,60
+azure: ,California:,"3,389"
+azure: ,Nevada:,91
+azure: ,Kentucky:,200
+azure: ,Montana:,30
+azure: ,Wisconsin:,301
+azure: ,Connecticut:,244
+azure: ,Minnesota:,497
+azure: ,Utah:,262
+azure: ,Louisiana:,86
+azure: ,Vermont:,31
+azure: ,New Jersey:,643
+azure: ,New Hampshire:,67
+azure: ,Hawaii:,34
+azure: ,Oklahoma:,68
+azure: ,Alabama:,166
+azure: ,New Mexico:,39
+azure: ,New York:,"1,252"
+azure: ,West Virginia:,49
+azure: ,Wyoming:,18
+azure: ,Arkansas:,97
+azure: ,Nebraska:,98
+azure: ,Florida:,"1,058"
+azure: ,Virginia:,"2,045"
+azure: ,Washington:,"1,915"
+azure: ,Kansas:,113
+azure: ,Idaho:,58
+azure: ,Colorado:,735
+azure: ,Arizona:,459
+azure: ,Illinois:,"1,297"
+azure: ,South Carolina:,137
+azure: ,Massachusetts:,"1,078"
+azure: ,South Dakota:,29
+azure: ,Maine:,49
+aws: ,Pennsylvania:,"1,153"
+aws: ,Delaware:,83
+aws: ,Maryland:,"1,790"
+aws: ,Texas:,"3,638"
+aws: ,Mississippi:,38
+aws: ,North Carolina:,"1,181"
+aws: ,North Dakota:,37
+aws: ,Michigan:,552
+aws: ,Missouri:,471
+aws: ,Georgia:,"1,323"
+aws: ,Ohio:,733
+aws: ,Iowa:,179
+aws: ,Tennessee:,421
+aws: ,Indiana:,311
+aws: ,Alaska:,13
+aws: ,Oregon:,544
+aws: ,Rhode Island:,71
+aws: ,California:,"7,906"
+aws: ,Nevada:,121
+aws: ,Kentucky:,148
+aws: ,Montana:,39
+aws: ,Wisconsin:,319
+aws: ,Connecticut:,361
+aws: ,Minnesota:,537
+aws: ,Utah:,466
+aws: ,Louisiana:,149
+aws: ,Vermont:,42
+aws: ,New Jersey:,952
+aws: ,New Hampshire:,90
+aws: ,Hawaii:,37
+aws: ,Oklahoma:,84
+aws: ,Alabama:,184
+aws: ,New Mexico:,67
+aws: ,New York:,"2,839"
+aws: ,West Virginia:,78
+aws: ,Wyoming:,13
+aws: ,Arkansas:,67
+aws: ,Nebraska:,120
+aws: ,Florida:,"1,261"
+aws: ,Virginia:,"5,027"
+aws: ,Washington:,"4,273"
+aws: ,Kansas:,139
+aws: ,Idaho:,76
+aws: ,Colorado:,"1,364"
+aws: ,Arizona:,590
+aws: ,Illinois:,"1,749"
+aws: ,South Carolina:,217
+aws: ,Massachusetts:,"1,989"
+aws: ,South Dakota:,30
+aws: ,Maine:,81
+ethical+hacker: ,Pennsylvania:,9

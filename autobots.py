@@ -21,7 +21,7 @@ def get_num_jobs(state, job_type):
         num_jobs = raw_num_jobs.contents[0].split()[3]
     except AttributeError:
         num_jobs = 0
-    sleep(randint(10, 25))
+    sleep(randint(6, 14))
     return num_jobs
 
 """Special shout out to Du'An Lightfoot and Kevin Diaz for the help"""

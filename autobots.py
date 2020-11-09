@@ -36,8 +36,8 @@ def main():
               'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota',
               'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin',
               'Wyoming']
-    job_type = ['network engineer', 'help+desk', 'ccna', 'comptia',
-                'azure', 'aws', 'ethical+hacker', 'oscp', 'CEH', 'ccie', 'ccnp', 'cloud engineer', 'security analyst',
+    job_type = ['network engineer', 'help desk', 'ccna', 'comptia',
+                'azure', 'aws', 'ethical hacker', 'oscp', 'CEH', 'ccie', 'ccnp', 'cloud engineer', 'security analyst',
                 'network technician', 'network administrator', 'data scientist']
     random.shuffle(states)
     with open(filename, 'w+', newline='') as csvfile:
@@ -45,8 +45,8 @@ def main():
             for state in states:
                 indeed_results = get_num_jobs(state, job)  # This calls get_num_jobs function
                 writer = csv.writer(csvfile)
-                writer.writerow([f"{job}: ", f"{state}:", f"{indeed_results}"])
-                print(f'{job}: {state}: {indeed_results}')
+                writer.writerow([f"{job}", f"{state}", f"{indeed_results}"])
+                print(f'{job} {state} {indeed_results}')
                 print('------')
 
 

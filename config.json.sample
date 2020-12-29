@@ -1,0 +1,6 @@
+{
+  "url": "INFLUX_URL_HERE",
+  "token": "INFLUX_TOKEN_HERE",
+  "org": "INFLUX_ORG_HERE",
+  "bucket": "INFLUX_BUCKET_HERE"
+}

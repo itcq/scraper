@@ -1,0 +1,9 @@
+comptia
+ccna
+ccnp
+ccie
+azure fundamentals
+aws solutions architect
+oscp
+CEH
+sans or giac

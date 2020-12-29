@@ -1,0 +1,15 @@
+help desk
+it support
+desktop support
+systems administrator
+systems engineer
+cloud engineer
+linux administrator
+linux engineer
+network technician
+network administrator
+network engineer
+security analyst
+ethical hacker
+penetration tester
+data scientist

@@ -1,5 +1,7 @@
 """This is Indeed Scraper"""
 
+import influxdb
+import influxdb_client
 import requests
 import random
 import csv

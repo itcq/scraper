@@ -1,18 +1,33 @@
 """This is Indeed Scraper"""
-
+"""Special shout out to Du'An Lightfoot and Kevin Diaz for the help"""
 import requests
+import pandas as pd
+import pandas
 import random
 import csv
 from bs4 import BeautifulSoup
-from datetime import datetime
 from random import randint
-from time import sleep 
+from time import sleep
+from datetime import datetime
 
-filename = datetime.now().strftime('jobs-%d-%m-%Y-%H-%M.csv')
+from influxdb_client import InfluxDBClient, Point, Dialect
+from influxdb_client.client.write_api import SYNCHRONOUS
+
+
+#client = InfluxDBClient(url="https://us-east-1-1.aws.cloud2.influxdata.com", token=token)
+
+client = InfluxDBClient (url="https://us-east-1-1.aws.cloud2.influxdata.com",
+        token="-zr6XdCL7_IC335_yH5I5-tvFnryPguPAGqnWGUvc6lVYY5yphNyNS9l-rfN_ffju70KVRgg9oBS7zDmL3kq8Q==",
+        org="zachys@gmail.com",
+        bucket="scraper")
+
+
+write_api = client.write_api(write_options=SYNCHRONOUS)
+query_api = client.query_api()
+
+#filename = datetime.now().strftime('jobs-%d-%m-%Y-%H-%M.csv')
 
 """This function gets the number of jobs"""
-
-
 def get_num_jobs(state, job_type):
     url = f"https://www.indeed.com/jobs?q={job_type}&l=${state}"
     soup = BeautifulSoup(requests.get(url).content, 'html.parser')  # This is an API CALL
@@ -21,10 +36,8 @@ def get_num_jobs(state, job_type):
         num_jobs = raw_num_jobs.contents[0].split()[3]
     except AttributeError:
         num_jobs = 0
-    sleep(randint(2, 4))
+    sleep(randint(6, 14))
     return num_jobs
-
-"""Special shout out to Du'An Lightfoot and Kevin Diaz for the help"""
 
 def main():
     """This is your main function"""
@@ -40,15 +53,32 @@ def main():
                 'azure', 'aws', 'ethical hacker', 'oscp', 'CEH', 'ccie', 'ccnp', 'cloud engineer', 'security analyst',
                 'network technician', 'network administrator', 'data scientist']
     random.shuffle(states)
-    with open(filename, 'w+', newline='') as csvfile:
-        for job in job_type:
-            for state in states:
-                indeed_results = get_num_jobs(state, job)  # This calls get_num_jobs function
-                writer = csv.writer(csvfile)
-                writer.writerow([f"{job}", f"{state}", f"{indeed_results}"])
-                print(f'{job} {state} {indeed_results}')
-                print('------')
 
+    for job in job_type:
+        for state in states:
+            indeed_results = get_num_jobs(state, job)  # This calls get_num_jobs function
+            sequence = [f"{indeed_results}, {job_type}, {state}",
+                        "mem,host=host1 available_percent=15.856523"]
+            write_api.write(scraper, zachys@gmail.com, sequence)
+                #writer = csv.writer(csvfile)
+                #writer.writerow([f"{job}", f"{state}", f"{indeed_results}"])
+            #print(f'{job} {state} {indeed_results}')
+            print('------')
+
+
+"""
+Query: using Pandas DataFrame
+"""
+data_frame = query_api.query_data_frame('from(bucket:"scraper") '
+                                        '|> range(start: -10m) '
+                                        '|> pivot(rowKey:["_time"], columnKey: ["_field"], valueColumn: "_value") '
+                                        '|> keep(columns: ["location", "number jobs"])')
+print(data_frame.to_string())
+
+"""
+Close client
+"""
+client.__del__()
 
 # def get_state():
 #     """How to enter and input This is not being used"""

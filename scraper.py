@@ -29,6 +29,12 @@ except FileNotFoundError:
       "Feel free to copy config.json.sample (provided with project)"
     )
     sys.exit(-1)
+except json.decoder.JSONDecodeError:
+    print("ERROR: Failed to parse config. Check that the JSON is valid\n"
+          "Feel free to copy config.json.sample (provided with project)"
+    )
+    sys.exit(-1)
+
 
 def get_num_jobs(state: str,
                  search_term: str) -> int:

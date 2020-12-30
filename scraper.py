@@ -50,8 +50,8 @@ def get_num_jobs(state: str,
         num_jobs = 0
     return num_jobs
 
-def scrape(states: list[str],
-           search_terms: list[str],
+def scrape(states: list,
+           search_terms: list,
            write_api: WriteApi,
            measurement: str) -> None:
     """

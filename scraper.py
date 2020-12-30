@@ -4,7 +4,8 @@
 Title: Indeed Scraper
 Authors: Zach Hill, Kevin Diaz, Du'an Lightfoot
 Description:
-    Scrapes number of jobs on indeed and uploads this data to an influx db instance
+    Scrapes number of jobs on indeed based on terms in resources/job_titles.txt 
+    and resources/certs.txt. It then uploads this data to an influx db instance
     for graphing and analysis
 TODO:
     - Add logging

@@ -18,4 +18,14 @@ python scraper.py
 0 */6 * * * cd /opt/scraper && python scraper.py >/dev/null 2>&1
 ```
 
-## Run roll-out.bat to start the autobots.py script.
+## Run roll-out.bat to start the autobots.py script.(old version)
+
+
+## Additional file info
+
+autobots.py = old script using excel to collect data
+scraper.py = new script sending data to InfluxDB
+influxdb.py = a backup/alternative version of scraper.py
+roll-out.bat = for Zach to run on his computer - You can modify this to change the path.
+
+## Overall it's a little sloppy in some places and I apologize for that, I'm new to this.
